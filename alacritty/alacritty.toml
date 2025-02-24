@@ -1,0 +1,38 @@
+[env]
+TERM = "alacritty"
+
+[window]
+padding.x = 0
+padding.y = 0
+title = "Терминал"
+dynamic_padding = true
+startup_mode = "Maximized"
+
+[font]
+size = 14
+
+normal.family = "JetBrainsMono Nerd Font"
+# normal.family = "DepartureMono Nerd Font"
+normal.style = "Regular"
+
+bold.family = "JetBrainsMono Nerd Font"
+# bold.family = "DepartureMono Nerd Font"
+bold.style = "Bold"
+
+italic.family = "JetBrainsMono Nerd Font"
+# italic.family = "DepartureMono Nerd Font"
+italic.style = "Italic"
+
+bold_italic.family = "JetBrainsMono Nerd Font"
+# bold_italic.family = "DepartureMono Nerd Font"
+bold_italic.style = "Bold Italic"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
